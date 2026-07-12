@@ -1,0 +1,134 @@
+Build a clean, professional personal website for Shikhar Haldia, an aspiring investor and independent equity researcher. The website should look modern, minimal, and academic, with a white background, dark text, subtle blue accents, and a responsive design for desktop and mobile.
+
+General Requirements
+Use React and Tailwind CSS.
+Create a fixed navigation bar at the top with links:
+Home
+About
+Research
+Investment Philosophy
+Keep the design simple, elegant, and suitable for college applications and professional networking.
+Add smooth scrolling between sections.
+Use a clean sans-serif font.
+Home Page
+
+Display:
+
+Header
+
+Shikhar Haldia
+
+Aspiring Investor • Fundamental Equity Research
+
+Introduction
+
+I conduct independent equity research on publicly traded companies, focusing on businesses with strong competitive advantages, solid financial performance, and long-term growth potential. My goal is to better understand how great companies create value by analyzing their financial statements, business models, competitive positioning, and industry trends.
+
+Featured Research
+NVIDIA Corporation (NVDA) — Independent Equity Research Report
+Focus Areas
+
+Artificial Intelligence & Semiconductors
+
+Researching AI infrastructure, semiconductor companies, emerging technologies, and the trends shaping the industry.
+
+Business Quality & Competitive Advantages
+
+Evaluating competitive moats, market leadership, customer switching costs, and other factors that contribute to long-term success.
+
+Valuation & Financial Analysis
+
+Using financial metrics such as P/E ratios, earnings growth, and valuation methods to determine whether a company is trading at a reasonable price.
+
+Add a prominent button:
+
+View Research
+
+The button should open this PDF:
+
+https://drive.google.com/file/d/1BUNl2DoEaeoipyZWONrs5marJctgblH6/view?usp=share_link
+
+About Page
+
+Title: About Me
+
+Content:
+
+Hi, I'm Shikhar Haldia, a high school student with a passion for investing, business analysis, and understanding how great companies create long-term value.
+
+I created this website to document my journey as an investor and to share independent equity research on publicly traded companies. Rather than focusing on short-term market movements, I'm interested in studying businesses from a long-term perspective by analyzing their financial performance, competitive advantages, industry dynamics, and valuation.
+
+My interest in investing comes from a desire to understand how businesses operate and why some companies consistently outperform others. Every research report I publish is an opportunity to strengthen my analytical thinking, improve my understanding of financial statements, and develop a disciplined investment process.
+
+My research process typically begins with understanding a company's business model and industry. From there, I analyze financial statements, evaluate competitive positioning, review management's strategy, assess potential risks, and develop an investment thesis based on the information available.
+
+Beyond investing, I enjoy pursuing activities that challenge me to think critically and solve complex problems. Competitive chess has strengthened my ability to recognize patterns, evaluate positions, and make decisions under pressure—skills that also apply to investment research. I also enjoy tutoring and helping other students learn, which has reinforced the importance of clear communication and continuous learning.
+
+This website serves as a record of my progress as I continue developing my knowledge of investing and financial analysis. As I publish new research and refine my investment approach, I hope this collection of work reflects both my curiosity and my commitment to becoming a better investor.
+
+Thank you for visiting, and I hope you find my research informative and insightful.
+
+Research Page
+
+Title: Equity Research
+
+Subtitle:
+
+Independent, fundamental research focusing on business quality, sustainable competitive advantages, and long-term value creation.
+
+Create a research card with:
+
+NVIDIA Corporation (NVDA)
+
+Published June 2026
+
+Investment Rating: HOLD
+
+Target Price: $225
+
+Expected Return: +9.7%
+
+Description:
+
+This report analyzes NVIDIA's competitive position in AI computing, financial performance, valuation, and long-term investment outlook.
+
+Add a button:
+
+Read Full Report
+
+Link the button to:
+
+https://drive.google.com/file/d/1BUNl2DoEaeoipyZWONrs5marJctgblH6/view?usp=share_link
+
+Also create a placeholder card below:
+
+Upcoming Research
+
+Display:
+
+"[Future company research reports will appear here.]"
+
+Investment Philosophy Page
+
+Title: Investment Philosophy
+
+Introduction:
+
+My approach to investing is grounded in fundamental, bottom-up analysis with a long-term ownership mindset. Rather than viewing stocks as tickers on a screen to be traded for short-term gains, I view them as fractional ownership stakes in real businesses.
+
+Core Principles
+Focus on Quality Moats
+
+I seek businesses protected by strong structural barriers to entry, such as high switching costs, network effects, brand equity, or cost advantages.
+
+Financial Resilience
+
+I prioritize companies with healthy balance sheets, robust free cash flow generation, and high returns on invested capital.
+
+Long-Term Orientation
+
+Markets are often driven by short-term noise, quarterly earnings pressure, and macro sentiment. I aim to capitalize on opportunities where a company's long-term compounding potential is undervalued.
+
+Margin of Safety
+
+Valuation matters. A disciplined investment process requires buying at a price that offers asymmetric upside while protecting against permanent capital loss.

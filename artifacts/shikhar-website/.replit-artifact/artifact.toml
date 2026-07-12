@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Shikhar Haldia — Personal Website"
+version = "1.0.0"
+id = "artifacts/shikhar-website"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 22973
+
+[services.development]
+run = "pnpm --filter @workspace/shikhar-website run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/shikhar-website", "run", "build" ]
+publicDir = "artifacts/shikhar-website/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "22973"
+BASE_PATH = "/"
