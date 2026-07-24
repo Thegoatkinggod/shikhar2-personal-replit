@@ -348,20 +348,54 @@ function ResearchPage() {
                 </CardContent>
               </Card>
 
-              <Card className="flex flex-col h-full border-dashed border-2 border-slate-200 bg-slate-50/50 shadow-none reveal-on-scroll opacity-0 translate-y-8 ease-out delay-100">
-                <CardHeader className="pb-4">
-                  <div className="w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center mb-4">
-                    <Search className="w-5 h-5 text-slate-400" />
+              <Card className="flex flex-col h-full border-slate-200 shadow-sm hover:shadow-lg transition-all duration-300 reveal-on-scroll opacity-0 translate-y-8 ease-out delay-100 group">
+                <CardHeader className="border-b border-slate-100 bg-slate-50/50 pb-6">
+                  <div className="flex justify-between items-start mb-4">
+                    <Badge variant="outline" className="bg-white text-xs font-semibold px-2 py-1 tracking-wider uppercase text-slate-500 border-slate-200">
+                      Published July 2026
+                    </Badge>
+                    <div className="w-8 h-8 rounded-full bg-blue-50 text-blue-600 flex items-center justify-center text-xs font-bold ring-1 ring-blue-100">
+                      A
+                    </div>
                   </div>
-                  <CardTitle className="text-xl text-slate-700">Upcoming Research</CardTitle>
+                  <CardTitle className="text-xl leading-tight mb-2 group-hover:text-primary transition-colors">
+                    Apple Inc. (AAPL)
+                  </CardTitle>
+                  <CardDescription className="text-sm">
+                    Consumer Technology & Services
+                  </CardDescription>
                 </CardHeader>
-                <CardContent className="pt-2 flex-grow flex flex-col items-center justify-center text-center">
-                  <p className="text-slate-500 italic mb-6">
-                    [Future company research reports will appear here.]
+                <CardContent className="pt-6 flex-grow flex flex-col">
+                  <div className="grid grid-cols-2 gap-4 mb-4">
+                    <div>
+                      <div className="text-xs text-slate-500 font-medium mb-1 uppercase tracking-wider">Rating</div>
+                      <div className="font-semibold text-slate-900">HOLD</div>
+                    </div>
+                    <div>
+                      <div className="text-xs text-slate-500 font-medium mb-1 uppercase tracking-wider">Current Price</div>
+                      <div className="font-semibold text-slate-900">$331.47</div>
+                    </div>
+                    <div>
+                      <div className="text-xs text-slate-500 font-medium mb-1 uppercase tracking-wider">Target Price</div>
+                      <div className="font-semibold text-slate-900">$360.00</div>
+                    </div>
+                    <div>
+                      <div className="text-xs text-slate-500 font-medium mb-1 uppercase tracking-wider">Upside</div>
+                      <div className="font-semibold text-green-600">+8.6%</div>
+                    </div>
+                  </div>
+
+                  <Separator className="mb-6" />
+
+                  <p className="text-slate-600 text-sm leading-relaxed mb-8 flex-grow">
+                    This report examines Apple's ecosystem strength, services growth trajectory, hardware innovation cycle, and long-term value creation potential.
                   </p>
-                  <div className="h-2 w-16 bg-slate-200 rounded-full mb-2"></div>
-                  <div className="h-2 w-24 bg-slate-200 rounded-full mb-2"></div>
-                  <div className="h-2 w-12 bg-slate-200 rounded-full"></div>
+
+                  <Button asChild className="w-full mt-auto bg-slate-900 hover:bg-primary text-white transition-colors">
+                    <a href="https://drive.google.com/file/d/1OCcFIFC0ImoaE5UJGZAbV9xlCUOnYRA2/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                      Read Full Report <ExternalLink className="ml-2 h-4 w-4" />
+                    </a>
+                  </Button>
                 </CardContent>
               </Card>
             </div>
