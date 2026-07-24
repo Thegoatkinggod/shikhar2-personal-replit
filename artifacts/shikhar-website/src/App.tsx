@@ -366,21 +366,17 @@ function ResearchPage() {
                   </CardDescription>
                 </CardHeader>
                 <CardContent className="pt-6 flex-grow flex flex-col">
-                  <div className="grid grid-cols-2 gap-4 mb-4">
+                  <div className="grid grid-cols-3 gap-4 mb-6">
                     <div>
                       <div className="text-xs text-slate-500 font-medium mb-1 uppercase tracking-wider">Rating</div>
                       <div className="font-semibold text-slate-900">HOLD</div>
                     </div>
                     <div>
-                      <div className="text-xs text-slate-500 font-medium mb-1 uppercase tracking-wider">Current Price</div>
-                      <div className="font-semibold text-slate-900">$331.47</div>
-                    </div>
-                    <div>
-                      <div className="text-xs text-slate-500 font-medium mb-1 uppercase tracking-wider">Target Price</div>
+                      <div className="text-xs text-slate-500 font-medium mb-1 uppercase tracking-wider">Target</div>
                       <div className="font-semibold text-slate-900">$360.00</div>
                     </div>
                     <div>
-                      <div className="text-xs text-slate-500 font-medium mb-1 uppercase tracking-wider">Upside</div>
+                      <div className="text-xs text-slate-500 font-medium mb-1 uppercase tracking-wider">Return</div>
                       <div className="font-semibold text-green-600">+8.6%</div>
                     </div>
                   </div>
