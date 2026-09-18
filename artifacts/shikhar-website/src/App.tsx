@@ -304,9 +304,6 @@ function ResearchPage() {
               <Card className="flex flex-col h-full border-slate-200 shadow-sm hover:shadow-lg transition-all duration-300 reveal-on-scroll opacity-0 translate-y-8 ease-out group">
                 <CardHeader className="border-b border-slate-100 bg-slate-50/50 pb-6">
                   <div className="flex justify-between items-start mb-4">
-                    <Badge variant="outline" className="bg-white text-xs font-semibold px-2 py-1 tracking-wider uppercase text-slate-500 border-slate-200">
-                      Published June 2026
-                    </Badge>
                     <div className="w-8 h-8 rounded-full bg-green-50 text-green-600 flex items-center justify-center text-xs font-bold ring-1 ring-green-100">
                       N
                     </div>
@@ -351,9 +348,6 @@ function ResearchPage() {
               <Card className="flex flex-col h-full border-slate-200 shadow-sm hover:shadow-lg transition-all duration-300 reveal-on-scroll opacity-0 translate-y-8 ease-out delay-100 group">
                 <CardHeader className="border-b border-slate-100 bg-slate-50/50 pb-6">
                   <div className="flex justify-between items-start mb-4">
-                    <Badge variant="outline" className="bg-white text-xs font-semibold px-2 py-1 tracking-wider uppercase text-slate-500 border-slate-200">
-                      Published July 2026
-                    </Badge>
                     <div className="w-8 h-8 rounded-full bg-blue-50 text-blue-600 flex items-center justify-center text-xs font-bold ring-1 ring-blue-100">
                       A
                     </div>
