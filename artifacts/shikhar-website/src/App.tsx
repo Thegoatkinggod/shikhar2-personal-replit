@@ -233,8 +233,12 @@ function AboutPage() {
                 <div className="w-12 h-1 bg-primary rounded-full mb-8"></div>
 
                 <div className="bg-white p-6 rounded-xl border border-slate-100 shadow-sm">
-                  <div className="aspect-square bg-slate-100 rounded-lg mb-4 flex items-center justify-center text-slate-400 overflow-hidden">
-                    <span className="text-4xl font-light">SH</span>
+                  <div className="aspect-square bg-slate-100 rounded-lg mb-4 overflow-hidden">
+                    <img
+                      src="/shikhar-profile.png"
+                      alt="Shikhar Haldia"
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   <h3 className="font-semibold text-slate-900">Shikhar Haldia</h3>
                   <p className="text-sm text-slate-500 mb-4">High School Student & Independent Researcher</p>
