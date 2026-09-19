@@ -721,6 +721,53 @@ function ResearchPage() {
                   </Button>
                 </CardContent>
               </Card>
+
+              <Card className="flex flex-col h-full border-slate-200 shadow-sm hover:shadow-lg transition-all duration-300 reveal-on-scroll opacity-0 translate-y-8 ease-out delay-1000 group">
+                <CardHeader className="border-b border-slate-100 bg-slate-50/50 pb-6">
+                  <div className="flex justify-between items-start mb-4">
+                    <Badge variant="outline" className="bg-white text-xs font-semibold px-2 py-1 tracking-wider uppercase text-slate-500 border-slate-200">
+                      Research Report
+                    </Badge>
+                    <div className="w-8 h-8 rounded-full bg-amber-50 text-amber-600 flex items-center justify-center text-xs font-bold ring-1 ring-amber-100">
+                      W
+                    </div>
+                  </div>
+                  <CardTitle className="text-xl leading-tight mb-2 group-hover:text-primary transition-colors">
+                    Wingstop Inc. (WING)
+                  </CardTitle>
+                  <CardDescription className="text-sm">
+                    Restaurants & Consumer Services
+                  </CardDescription>
+                </CardHeader>
+                <CardContent className="pt-6 flex-grow flex flex-col">
+                  <div className="grid grid-cols-3 gap-4 mb-6">
+                    <div>
+                      <div className="text-xs text-slate-500 font-medium mb-1 uppercase tracking-wider">Rating</div>
+                      <div className="font-semibold text-amber-600">HOLD / SELL</div>
+                    </div>
+                    <div>
+                      <div className="text-xs text-slate-500 font-medium mb-1 uppercase tracking-wider">Target</div>
+                      <div className="font-semibold text-slate-900">$290.00</div>
+                    </div>
+                    <div>
+                      <div className="text-xs text-slate-500 font-medium mb-1 uppercase tracking-wider">Return</div>
+                      <div className="font-semibold text-green-600">+1.8%</div>
+                    </div>
+                  </div>
+
+                  <Separator className="mb-6" />
+
+                  <p className="text-slate-600 text-sm leading-relaxed mb-8 flex-grow">
+                    This report evaluates Wingstop's franchise-led growth model, brand strength, unit expansion opportunities, and valuation outlook.
+                  </p>
+
+                  <Button asChild className="w-full mt-auto bg-slate-900 hover:bg-primary text-white transition-colors">
+                    <a href="https://drive.google.com/file/d/16T21GzMi3Y3Rgvp1u517oze3V65aXQEZ/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                      Read Full Report <ExternalLink className="ml-2 h-4 w-4" />
+                    </a>
+                  </Button>
+                </CardContent>
+              </Card>
             </div>
           </div>
         </section>
