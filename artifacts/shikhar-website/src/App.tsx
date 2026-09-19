@@ -1015,7 +1015,7 @@ function ResearchPage() {
                     </div>
                   </div>
                   <CardTitle className="text-xl leading-tight mb-2 group-hover:text-primary transition-colors">
-                    lululemon athletica inc. (LULU)
+                    Lululemon Athletica Inc. (LULU)
                   </CardTitle>
                   <CardDescription className="text-sm">
                     Athletic Apparel & Consumer Retail
