@@ -143,7 +143,7 @@ function HomePage() {
       <Navigation />
       <main>
         <section className="pt-32 pb-20 md:pt-48 md:pb-32 container mx-auto px-6 max-w-5xl min-h-[90vh] flex flex-col justify-center">
-          <div className="max-w-3xl reveal-on-scroll opacity-0 translate-y-8 transition-all duration-700 ease-out">
+          <div className="relative -top-6 md:-top-10 max-w-3xl reveal-on-scroll opacity-0 translate-y-8 transition-all duration-700 ease-out">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 text-primary text-xs font-semibold tracking-wide mb-6 border border-blue-100">
               <span className="relative flex h-2 w-2">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-40"></span>
@@ -175,7 +175,37 @@ function HomePage() {
             </div>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-6 mt-20 reveal-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-200 ease-out">
+          <div className="mt-2 md:mt-4 rounded-2xl border border-slate-200 bg-gradient-to-br from-slate-50 to-blue-50/60 p-6 md:p-8 shadow-sm reveal-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-100 ease-out">
+            <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-3 mb-6">
+              <div>
+                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-primary mb-2">Research Snapshot</p>
+                <h2 className="text-xl md:text-2xl font-semibold tracking-tight text-slate-900">A growing body of independent analysis</h2>
+              </div>
+              <span className="text-sm text-slate-500 md:text-right">Across businesses, industries, and markets</span>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-4">
+              <div className="rounded-xl bg-white/80 border border-white px-5 py-4 shadow-sm">
+                <div className="text-2xl font-bold tracking-tight text-slate-900">21</div>
+                <div className="text-sm text-slate-600 mt-1">Equity Research Reports Published</div>
+              </div>
+              <div className="rounded-xl bg-white/80 border border-white px-5 py-4 shadow-sm">
+                <div className="text-2xl font-bold tracking-tight text-slate-900">12</div>
+                <div className="text-sm text-slate-600 mt-1">Industries Covered</div>
+              </div>
+              <div className="rounded-xl bg-white/80 border border-white px-5 py-4 shadow-sm">
+                <div className="text-2xl font-bold tracking-tight text-slate-900">$15+ Trillion</div>
+                <div className="text-sm text-slate-600 mt-1">Market Capitalization Analyzed</div>
+              </div>
+            </div>
+
+            <div className="mt-4 flex flex-col sm:flex-row sm:items-center gap-3 rounded-xl border border-blue-100 bg-blue-50/70 px-5 py-4">
+              <span className="text-xs font-semibold uppercase tracking-wider text-primary">Coverage</span>
+              <span className="text-sm text-slate-700">Technology, Consumer, Financials, Software & Restaurants</span>
+            </div>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-6 mt-10 md:mt-12 reveal-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-200 ease-out">
             <Card className="border-slate-100 shadow-sm hover:shadow-md transition-shadow bg-white/50 backdrop-blur-sm">
               <CardHeader className="pb-3">
                 <Cpu className="w-6 h-6 text-primary mb-2" />
@@ -1250,7 +1280,7 @@ function ResearchPage() {
                     </div>
                   </div>
                   <CardTitle className="text-xl leading-tight mb-2 group-hover:text-primary transition-colors">
-                    Palantir Technologies Inc. (PLTR)
+                    Palantir Technology Inc. (PLTR)
                   </CardTitle>
                   <CardDescription className="text-sm">
                     AI Software & Data Analytics
